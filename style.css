@@ -290,6 +290,9 @@ a:hover {
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
+    height: 40px;
+    width: 214.44px;
+
 }
 
 .navbar-brand img[src$=svg] {
@@ -959,6 +962,7 @@ h4 {
     .navbar-brand img {
         max-height: 40px;
         width: auto;
+        
     }
 
     .photo-portfolio{
