@@ -668,7 +668,7 @@ p {
     
 }
 
-.logo-header {
+.logo-head {
     height: 100px;
     width: 100px;
 }
@@ -958,6 +958,12 @@ h4 {
         max-height: 40px;
         width: auto;
     }
+
+    .photo-portfolio{
+        height: 270px;
+        height: 270px;
+    }
+    
     .nav-invert .navbar-header {
         float: none;
         width: 100%;
