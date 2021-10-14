@@ -286,12 +286,15 @@ a:hover {
     line-height: 44px;
 }
 
+.logo-nav{
+width: 215px;
+height: 40px;
+}
+
 .navbar-brand img {
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
-    width: 214px;
-    height:40px;
 }
 
 .navbar-brand img[src$=svg] {
