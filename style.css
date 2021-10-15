@@ -1047,3 +1047,7 @@ h4 {
         text-align: center;
     }
 }
+
+.dark_bloc {
+    background-color: #303030;
+}
