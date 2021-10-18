@@ -27,6 +27,12 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
+.titre {
+    font-size: 38px!important;
+    font-weight: 600;
+    margin: 40px;
+}
+
 .bloc {
     width: 100%;
     clear: both;
@@ -297,8 +303,8 @@ q{
 }
 
 #logo-nav{
-width: 215px;
-height: 40px;
+    width: 215px;
+    height: 40px;
 }
 
 .navbar-brand img {
@@ -695,6 +701,8 @@ p {
 
 .text-footer{
     color:#1C1C1C!important;
+    font-weight: 500;
+    margin: 20px 0 40px 0;
 }
 
 .tight-width-whitespace {
@@ -705,6 +713,7 @@ p {
 .h1 {
     font-size: 20px;
     font-family: "Open Sans";
+    text-transform: capitalize;
 }
 
 .cta-hero {
@@ -722,27 +731,56 @@ p {
 }
 
 h2 {
-    font-size: 34px;
-    line-height: 1.2em;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 28px;
     letter-spacing: -1.2px;
-    margin: 80px auto;
+    margin: 90px 0 70px 0;
+}
+
+.no-margin{
+    margin: 0;
+    padding: 10px 0 5px 0;
+}
+
+.padding-s{
+    padding: 0 5px;
 }
 
 h3 {
-    font-size: 24px;
+    font-size: 18px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
 }
 
+.flex-end{
+    justify-content: end;
+    display: flex;
+}
+
+.text-contact{
+    color: #f3976c!important;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.padding-banner{
+    padding: 50px 0 10px 0;
+}
+
+.padding-mission{
+    padding: 0 130px;
+}
+
+/*#bloc-3-what-i-do{
+    margin-top: 50px;
+}*/
+
 .med-width-whitespace {
     max-width: 800px;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
-}
-
-h1 {
-    color: #333333!important;
 }
 
 h4 {
@@ -766,7 +804,7 @@ h4 {
     color:#1C1C1C!important;
 }
 .text-med-grey{
-color:#575757!important;
+    color:#575757!important;
 }
 
 .text-black{
@@ -810,8 +848,12 @@ color:#575757!important;
     background-color: #F3976C;
 }
 
-.tc-white {
+.tc-orange {
     color: #F3976C!important;
+}
+.capital{
+    text-transform: uppercase;
+    
 }
 
 .btn-atomic-tangerine {
@@ -1002,7 +1044,7 @@ color:#575757!important;
         width: auto;
         
     }
-
+    
     .photo-portfolio{
         height: 270px;
         height: 270px;
