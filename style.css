@@ -28,9 +28,9 @@ a:hover {
 }
 
 .titre {
-    font-size: 38px!important;
-    font-weight: 600;
-    margin: 40px;
+    font-size: 44px!important;
+    font-weight: 900;
+    color:#ffff!important;
 }
 
 .bloc {
@@ -672,7 +672,8 @@ a {
 }
 
 .hero-bloc-text {
-    font-size: 48px;
+    font-size: 44px;
+    font-weight: 500;
 }
 
 .hero-bloc-text-sub {
@@ -690,7 +691,7 @@ a {
 }
 
 p {
-    font-size: 14px;
+    font-size: 15px;
     
 }
 
@@ -760,9 +761,10 @@ h3 {
 }
 
 .text-contact{
-    color: #f3976c!important;
-    font-size: 32px;
-    font-weight: 500;
+    color: #fff!important;
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 1.2em;
 }
 
 .padding-banner{
@@ -849,7 +851,7 @@ h4 {
 }
 
 .tc-orange {
-    color: #F3976C!important;
+    color: #F3976C
 }
 .capital{
     text-transform: uppercase;
@@ -885,6 +887,13 @@ h4 {
 .icon-dark-slate-blue {
     color: #364577!important;
     border-color: #364577!important;
+}
+#form-label{
+    font-size:18px;
+}
+
+#adress{
+    font-size:18px; 
 }
 
 /*.bg-dots-bg {
@@ -1098,6 +1107,7 @@ h4 {
     form {
         padding: 5px;
     }
+    
     .close-lightbox {
         display: inline-block;
     }
