@@ -32,6 +32,9 @@ a:hover {
     font-weight: 900;
     color:#ffff!important;
 }
+.text-white{
+    color:#fff!important;
+}
 
 .bloc {
     width: 100%;
