@@ -674,6 +674,7 @@ a {
 .hero-bloc-text {
     font-size: 44px;
     font-weight: 600;
+    color: #fff!important;
 }
 
 .hero-bloc-text-sub {
@@ -749,7 +750,7 @@ h2 {
 }
 
 h3 {
-    font-size: 18px;
+    font-size: 17px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
